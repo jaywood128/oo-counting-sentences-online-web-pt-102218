@@ -29,7 +29,7 @@ end
   def count_sentences
     if !self.end_with?("!",".","?")
       0
-    elsif self.end_with("!", ".", "?")
+    elsif self.end_with?("!", ".", "?")
       self.split.length
     end
   end
