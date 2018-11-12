@@ -32,6 +32,6 @@ end
     #   0
     # elsif self.end_with?("!", ".", "?")
     #   self.split(/[?.!]/).length
-    
+
   end
 end
