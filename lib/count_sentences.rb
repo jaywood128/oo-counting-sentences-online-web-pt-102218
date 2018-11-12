@@ -30,7 +30,7 @@ end
     if !self.end_with?("!",".","?")
       0
     elsif self.end_with?("!", ".", "?")
-      self.split.length
+      self.split(/[?.!]/).length
   binding.pry
     end
   end
