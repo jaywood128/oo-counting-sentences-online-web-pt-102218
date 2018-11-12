@@ -32,4 +32,5 @@ end
     elsif self.end_with("!", ".", "?")
       self.split.length
     end
+  end
 end
