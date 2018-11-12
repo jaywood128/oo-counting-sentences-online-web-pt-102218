@@ -19,8 +19,12 @@ end
 end
 
   def exclamation?
-
-  end
+    if !self.end_with("!")
+      false
+    else
+      true
+    end
+end
 
   def count_sentences
 
